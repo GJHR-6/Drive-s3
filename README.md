@@ -1,27 +1,25 @@
-# Blockchain POC
+# Drive-S3 - Cloud Storage Integration ☁️
 
-## AWS Lambda function code
+## 📌 Description
+Drive-S3 is a **cloud storage management tool** designed to integrate seamlessly with **Amazon S3**, providing efficient file handling, secure data transfers, and optimized storage solutions.
 
-Under zventus_blockchain we have a poetry installable package that will be packaged and uploaded to the lambda function we will be using for poc V2.
+## 🎯 Project Objectives
+- **Simplify file management** in Amazon S3.
+- **Enhance security** for cloud-based storage.
+- **Optimize data transfer** for improved efficiency.
 
-## Packaging the lambda function
+## 🔥 Key Features
+- **Automated file uploads & downloads**.
+- **Secure authentication** for S3 access.
+- **Optimized storage handling** for large datasets.
 
-You need to go to the lambda folder like this:
+## 🛠️ Technologies Used
+- **Cloud Platform:** AWS S3
+- **Programming Language:** Python, Node.js
+- **Frameworks:** AWS SDK, Express.js
+- **Version Control:** GitHub
 
-```bash
-cd zventus_blockchain 
-```
-
-then run
-
-```bash
-make install
-```
-
-and if you want to zip it
-
-```bash
-make zip_lambda
-```
-
-You can then upload this artifact.zip into AWS. Ideally you setup a GitHub action to do all the steps above and even uploading it to lambda automatically after passing some unit tests to make sure the new version is not broken.
+## 🏗️ Installation & Setup
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/GJHR-6/Drive-s3.git
